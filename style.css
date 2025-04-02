@@ -7,14 +7,43 @@
     font-family: "Space Mono", monospace;
 }
 :root {
+    font-size: 62.5%;
     --bg-body: #C5E4E7;
     --white: #FFF;
+    --sherpa-blue: #00474B;
+    --greyish-turquoise: #5E7A7D;
+    --topaz: #26C2AE;
+    --regent-grey: #7F9D9F;
+    --Squeeze: #F3F9FA;
 }
 
-.body {
+body {
+    font-size: 1.6rem;
     background: var(--bg-body);
 }
 
-.main{
+header {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    }
+    
+main{
     background: var(--white);
+    padding: 3.2rem 2.4rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+}
+
+.info {
+    padding-inline: 0.8rem;
+
+    strong {
+        color: var(--greyish-turquoise);
+    }
+
+    .imput-box {
+        margin-top: .6rem;
+        background-color: var(--Squeeze);
+    }
 }
